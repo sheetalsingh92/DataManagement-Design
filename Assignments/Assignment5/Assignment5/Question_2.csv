@@ -1,0 +1,12 @@
+ProductCategoryID,ProductSubCategoryID,ProductID,ProductName,SoldQuantity
+2,6,907,Rear Brakes,27500
+2,15,910,HL Mountain Seat/Saddle,39050
+2,15,911,LL Road Seat/Saddle,39050
+2,15,912,ML Road Seat/Saddle,39050
+4,37,928,LL Mountain Tire,48950
+4,37,929,ML Mountain Tire,48950
+4,37,930,HL Mountain Tire,48950
+2,13,935,LL Mountain Pedal,56100
+2,13,936,ML Mountain Pedal,56100
+2,6,948,Front Brakes,27500
+2,7,952,Chain,3000

@@ -1,0 +1,5 @@
+* We have followed Star Model and hence we have used denormalised tables.
+
+* Date dimension is comprised of DueDate,OrderDate and ShippingDate in a single column and we have used the keys to uniquely identify them.
+
+
