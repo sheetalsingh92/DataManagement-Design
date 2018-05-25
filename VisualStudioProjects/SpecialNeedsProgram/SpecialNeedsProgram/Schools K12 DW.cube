@@ -1,0 +1,999 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f43b0127-491d-4a4d-8018-47204be2378e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Schools K12 DW</ID>
+  <Name>Schools K12 DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-8321" scrolltop="-41" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="21749" y="12806" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="dimSpecialProgram" left="253" top="13875" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dimSpecialProgram" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="dimStudent" left="5886" top="7401" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="5477" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00006515000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dimStudent" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="factSpecialProgram" left="20" top="8326" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3466" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00008a0d00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_factSpecialProgram" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="dimDate" left="3125" top="0" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="5133" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00000d14000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dimDate" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1354" top="11175" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[dimSpecialProgram_factSpecialProgram_FK1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1753" y="13875" />
+              <point x="1753" y="11475" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4742" top="4501" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="2532" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[dimDate_dimStudent_FK2]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="7" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5141" y="5000" />
+              <point x="5141" y="6200" />
+              <point x="6974" y="6200" />
+              <point x="6974" y="7401" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5292" top="4501" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3632" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[dimDate_dimStudent_FK3]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5691" y="5000" />
+              <point x="5691" y="6200" />
+              <point x="8624" y="6200" />
+              <point x="8624" y="7401" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6392" top="4501" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="4182" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[dimDate_dimStudent_FK1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="2" sourceattachpoint="13" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6791" y="5000" />
+              <point x="6791" y="6200" />
+              <point x="10274" y="6200" />
+              <point x="10274" y="7401" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3186" top="9502" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[dimStudent_factSpecialProgram_FK1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="26" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5886" y="9901" />
+              <point x="4686" y="9901" />
+              <point x="4686" y="9900" />
+              <point x="3486" y="9900" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1453" top="4501" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3538" height="4125" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[dimDate_factSpecialProgram_FK1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4591" y="5000" />
+              <point x="4591" y="6663" />
+              <point x="1753" y="6663" />
+              <point x="1753" y="8326" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-8321</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-41</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>76</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cebd5061-467b-4903-a245-d87dea786a6a">
+      <ID>Dim Student</ID>
+      <Name>Dim Student</Name>
+      <DimensionID>Dim Student</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9f0c57a2-4118-49c7-86a1-78ae969873c7">
+          <AttributeID>Student ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab6eb6fe-8c23-4cb1-a600-e133763caa99">
+          <AttributeID>SIS Student ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24c11009-5926-4b22-afdf-52bec6c768d5">
+          <AttributeID>Student Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3785ce7-77b1-490b-900d-4c5ee041e3b3">
+          <AttributeID>Student First Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b58921a7-3af1-4191-8de6-783b39820019">
+          <AttributeID>Student Last Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b11bd248-b83b-4a80-b253-e4ff8890d0b9">
+          <AttributeID>Gender</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2c1f170-e0d6-4f97-b60e-5a6931199350">
+          <AttributeID>Ethnicity Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="703c3e73-f9ff-4065-9ed1-1c1cacbab27b">
+          <AttributeID>Ethnicity</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e8b5253-a716-4666-b59b-e78173ccf1e2">
+          <AttributeID>ESOL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="adfbb6c7-f71e-4067-8808-8125db083ccc">
+          <AttributeID>Free Reduced Lunch</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="59484513-aad4-401e-b23f-09ee6ca11b77">
+          <AttributeID>Homeroom Staff ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="429ca9b7-cb36-4557-90be-2b83aca7e80e">
+          <AttributeID>Facility ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8dad1d1-baec-4b73-a16d-40a358db8df7">
+          <AttributeID>Grade</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1fd7f3ee-33ce-4c77-8b23-3350a3efbc86">
+          <AttributeID>Assignment ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="817a0652-7f70-4891-a8dd-aa2e02d80898">
+          <AttributeID>Enrollment Code ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e2ef2ea-3f3c-4e36-8c25-154edfd379e6">
+          <AttributeID>Withdrawal Code ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="939aa285-b356-4c5a-b42d-b28ff2f25a74">
+          <AttributeID>Effective Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f153635-7a4d-4091-92a1-ac9229c3d8c1">
+          <AttributeID>End Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e61d236a-bec5-466a-b978-3df690e636e0">
+          <AttributeID>Student Middle Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5f6ffbe6-0067-4b72-ac0e-50170bdba238">
+          <AttributeID>Student Name Suffix</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5fbf56d7-a481-4074-86a2-5289b9a8e4db">
+          <AttributeID>Student Phone</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d52c0123-9d8b-424c-8207-cb0b26ba4ba3">
+          <AttributeID>Student SSN</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd6a3852-2634-4300-b112-7f9d74a6e768">
+          <AttributeID>Address1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a5b32db4-e898-4918-a4ae-0f811abe2e86">
+          <AttributeID>City</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d3a61822-e627-43da-9623-f99395abba6c">
+          <AttributeID>State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="27bd0a69-bb86-4de4-9ab5-103a8c360784">
+          <AttributeID>Zip</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a483cf30-f674-47be-8c85-91d0fd01ddfb">
+          <AttributeID>Adult Employment Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3da1ab4b-14cd-4da1-900f-abb8454b8ef6">
+          <AttributeID>Adult LEP</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae10f648-4827-4a7a-b704-cd3d878e3adb">
+          <AttributeID>Attendance Period ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ea53ab1-f48b-429f-8016-4e89b170e025">
+          <AttributeID>Audiology Service Early Intervention</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24e75871-8c64-4411-8a2c-7dd8f2e648b8">
+          <AttributeID>Birth Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b119eae7-fe21-48cc-a44a-a210b2d646f9">
+          <AttributeID>Birth Place</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="47800ec2-8d88-4949-96e0-a3fc53a0c256">
+          <AttributeID>Birth State</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0c55183-6e5f-447e-aa3f-f579c0a13f20">
+          <AttributeID>Citizenship Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="286703fd-6994-4eb4-9f6e-7f6d01fad98e">
+          <AttributeID>Early Admission</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b75d4707-0630-4e18-836c-795c2b1ab5dc">
+          <AttributeID>Economic Disadvantage</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6a0c05b-797c-48de-95c3-67d02d6b6b0c">
+          <AttributeID>ELL Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a32f39a-4b0e-4607-b0eb-942dff034ee7">
+          <AttributeID>ELL Code Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="163bdcb6-a5e7-4d57-8780-97ca8b7593e7">
+          <AttributeID>Federal Impact Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c180164-e108-416a-a500-e3ff50e1844f">
+          <AttributeID>Federal Impact Code Desc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1d59155a-8a5a-40c6-8594-d37313840f0a">
+          <AttributeID>Gifted Student</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1fb7ac71-5a77-45a2-8173-ed54a5c9de5f">
+          <AttributeID>Graduation Plan Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b607ae7-992d-4abe-a582-70b401fe5818">
+          <AttributeID>Graduation Option</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b03f3437-6bcc-4df3-994c-1506c7af0bfe">
+          <AttributeID>Home Language</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b55c994-f19b-4e76-af84-207c5644c8bf">
+          <AttributeID>Homeless Student</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ffd90b8b-ba65-41e8-b610-b6f2f1389f29">
+          <AttributeID>Homeless Unaccompanied Youth</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1039cba-d561-4c33-96c1-036f7b253987">
+          <AttributeID>Homeroom</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab84fbcf-7d92-40b1-ab8a-d0019cfc9868">
+          <AttributeID>Home School Taught</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9661e831-9de3-449a-bbbf-1504428b89b1">
+          <AttributeID>Household Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b0c2656-fb0c-411c-9f8e-2185cd131888">
+          <AttributeID>Incarcerated Student</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09b9e11f-3efe-436f-96aa-0667d942a38e">
+          <AttributeID>KG Readiness</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7bad07a-ecac-4f83-be3a-2a4913402f1c">
+          <AttributeID>Marital Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36e5705f-9cc7-47cc-8657-83d2553f7db2">
+          <AttributeID>Medicaid Spec Services</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b517433-11d2-4203-8bf3-aa5737d7605e">
+          <AttributeID>Medical Serv Early Intervention</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="268c5d03-5f70-465e-b642-9c215cee20a2">
+          <AttributeID>Migrant Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44e2faf9-5608-475c-9442-78d000feacd9">
+          <AttributeID>Missing Child</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="27e611dd-b914-416b-bfbd-2549d2aecb11">
+          <AttributeID>National Achieve Scholar</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d5be17d-edf7-4190-a344-d8d3d3bd0c90">
+          <AttributeID>National Hispanic Scholar</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0795995f-bd48-4819-aecc-4dec56cffdae">
+          <AttributeID>National Merit Scholar</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ce1426a-27fd-4605-83a5-c846b246931b">
+          <AttributeID>Early Intervention</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bebd1c8d-c481-4179-bdba-1f11abc80702">
+          <AttributeID>Early Exceptionalities</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf5ee2cd-dc81-4289-8c9f-8875f8540093">
+          <AttributeID>Out Of District</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="66fcb68f-3b9f-406b-9932-42972c298391">
+          <AttributeID>Exceptionality</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bfe31204-a923-488d-8030-db00e1ed9594">
+          <AttributeID>Primary Language</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="363e2aaa-5c99-4abe-9a25-a3becc245b49">
+          <AttributeID>Resident Status</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c0a29472-a7a4-4f8d-9cd3-fb98d1e78a9e">
+          <AttributeID>Second Language</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06834622-d5e4-419d-9692-d4ca805aa64b">
+          <AttributeID>Ref ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5735a591-a1a8-4d90-be30-4cb0293e424d">
+          <AttributeID>Old SID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eae9f224-032d-41d6-befc-25d7faf5a149">
+          <AttributeID>School Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e36afa9-45e2-4b35-b65c-d48543d057f5">
+          <AttributeID>Withdrawal Flag</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc5daab4-ea93-4bb6-a97b-d2a73a31f3a5">
+          <AttributeID>Date PK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8227a11d-7a20-46b1-8a6c-daaaf8c7bb47">
+          <AttributeID>Date Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="09ee740d-e8fe-47e8-8ee4-ae85626ebc04">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d1c663b-c598-4a96-9e73-e3c4897cb4f1">
+          <AttributeID>Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="16cc928d-f9e5-4903-ba24-f68cbf971126">
+          <AttributeID>Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f36bf550-24c2-425e-a23e-fc66216d1ceb">
+          <AttributeID>Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77fa9135-82bb-4491-af8a-330ac896f637">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3bb9600f-f238-4274-92d6-882c9d2ccb23">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ef65ff8a-9a96-4d79-a013-75d3a7f628ec">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f883e13-8d68-48cf-b92c-01c2de5e44c9">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce7cc298-f2fc-4c42-bd52-7d304d579bce">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8054aae9-0d60-47f0-a53c-9ce88296fe5e">
+          <AttributeID>Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea1a35bc-8299-410d-8fdc-2337c9a4155a">
+          <AttributeID>Day Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd676510-a0e7-4982-b582-5288616cdc43">
+          <AttributeID>Day Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="00b981ff-050b-4ad7-800a-973d6457eed2">
+          <AttributeID>Day Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae4f1463-4bfd-4998-9391-7f9365a4525d">
+          <AttributeID>Day Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="32d96744-3af9-456a-8df7-889906556283">
+          <AttributeID>Day Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80c888e1-6f61-426c-9bf8-f9afcd94cd41">
+          <AttributeID>Day Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a7fecc52-5b48-4b29-a7a5-f8728d23f533">
+          <AttributeID>Day Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aea1099a-62ff-4be3-8e00-4ee76681f44d">
+          <AttributeID>Day Of Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5cba14df-bb8e-4c86-9f6e-daa35f26c101">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c47fc84-474e-4d84-aee9-2a302a7f8ed2">
+          <AttributeID>Day Of Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b121981-ab2a-423f-aaf4-448e1e88a495">
+          <AttributeID>Week Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca68d0ed-1c74-4a9e-88b6-1474405924ab">
+          <AttributeID>Week Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d77e770-57af-4e2b-8ec2-861897577c25">
+          <AttributeID>Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c815f0b-dacd-4115-963d-b4ab03fe9395">
+          <AttributeID>Month Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0355b5ef-2e6a-4905-8622-088a771b68f2">
+          <AttributeID>Month Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e504366d-55ca-4c64-82f5-9ab4aebc27e7">
+          <AttributeID>Month Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6cbf03f7-7d4a-4e25-8d9d-5ac7e35fc9aa">
+          <AttributeID>Month Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06bb891e-f842-4108-bcdd-03cb5f34aee2">
+          <AttributeID>Month Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0f48505-8173-4fb6-84bd-da776cb1e704">
+          <AttributeID>Quarter Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="924b5851-42f9-48a4-b2cb-4a0e1cb52a1f">
+          <AttributeID>Quarter Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b76d5805-1054-497d-9554-a1ffa446d703">
+          <AttributeID>Quarter Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95c5da97-6132-471f-9c97-62e4753caf5a">
+          <AttributeID>Quarter Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b14e1144-ac04-4abc-a221-809ac1a58778">
+          <AttributeID>Half Year Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="85380d25-815f-4a5a-a9ef-009cf87ed08b">
+          <AttributeID>Half Year Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be40259c-fe01-43a8-9a0a-9f9d6cd24fbf">
+          <AttributeID>Dim Date - School Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ed9ad71-45d8-4ab6-9adb-b1aece8caadb">
+          <AttributeID>School Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d12e9f2-5f76-4c9f-98d3-b937bf209fe9">
+          <AttributeID>School Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8797be15-7871-4f05-aa37-636a79f7ae6f">
+          <AttributeID>School Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="caa85aec-b0db-40f4-8609-ed9f3bd7f1e5">
+          <AttributeID>School Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ab8aeef4-4d87-4837-b6c8-42b79de2fb4f">
+          <AttributeID>School Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88e6dae6-cc5a-4115-b12f-b70545271dda">
+          <AttributeID>School Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce416cd6-b016-4593-929b-8410b033d8a9">
+          <AttributeID>School Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02dc9a3c-b33c-42f6-9531-5f131c1a15d4">
+          <AttributeID>School Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33296d77-47ea-4244-a6cb-499ba1b179c5">
+          <AttributeID>School Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a2a0def6-ca48-485e-b93f-0a693b1d0c2e">
+          <AttributeID>School Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="920e4d7f-81e3-4da1-8202-c579204f69a1">
+          <AttributeID>School Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94f76d08-da80-46fb-b263-798d90124c0f">
+          <AttributeID>School Day Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="232d64fb-91ed-445e-9c5e-7597ef4c9ea0">
+          <AttributeID>School Day Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="900e0bf4-62c0-46c0-a76e-de53e0ba2f13">
+          <AttributeID>School Day Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a3b49ab8-da8e-4704-96c8-685158ad9e55">
+          <AttributeID>School Day Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4dcf096-b0d7-4d44-a989-fc8c9cab234e">
+          <AttributeID>School Day Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b97c2cd6-b3ec-45ea-88c3-0d546bad101a">
+          <AttributeID>School Day Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d87dadf-9305-4166-8f54-061e87687fed">
+          <AttributeID>School Day Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0fc8cab6-c9c5-46e7-9da6-cf0425b69095">
+          <AttributeID>School Day Of Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="341adee2-b465-41c7-80ba-a3b36a18711d">
+          <AttributeID>School Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5264794-99bd-437a-bd94-ca2253b6bb0a">
+          <AttributeID>School Day Of Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3801ed5f-97ad-41d7-ab06-b9e9de7ae606">
+          <AttributeID>School Week Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5d9110ce-e97a-4e82-97da-9cc307fd7591">
+          <AttributeID>School Week Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e43d400d-57fe-4de0-b477-aecca0625ecc">
+          <AttributeID>School Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c712954a-7fc2-412d-8a8e-4f5802bb9a76">
+          <AttributeID>School Month Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="27fff16e-3e94-4def-9bac-c7348139ed72">
+          <AttributeID>School Month Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="735ba7d0-47d6-43aa-92db-fd94f99b03ba">
+          <AttributeID>School Month Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a81ee50-5293-450b-9bbb-559f1861ef1e">
+          <AttributeID>School Month Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1c943910-5112-43a0-8c7d-e8a03ccf3442">
+          <AttributeID>School Month Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc9153b1-27e8-4299-8372-dbbc25d63605">
+          <AttributeID>School Quarter Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af509530-d88c-4d4a-bb25-0d02402164c0">
+          <AttributeID>School Quarter Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e5ee2bf-b1dc-4d9b-855e-e417b29d33f8">
+          <AttributeID>School Quarter Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03e73c38-59d8-46c5-945a-bb8bc6016058">
+          <AttributeID>School Quarter Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3fca5959-756d-4bf0-a307-ad4f7e93210a">
+          <AttributeID>School Half Year Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60350360-5b55-4fe4-a316-92926e43381a">
+          <AttributeID>School Half Year Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b10affdd-f5a4-492b-b220-a0ec3e4a31c2">
+          <AttributeID>School Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17e7b194-0f17-48b5-850a-55049df4d747">
+          <AttributeID>School Nine Weeks</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="580bc870-0de4-4c9b-b037-cc0290faba42">
+      <ID>Dim Special Program</ID>
+      <Name>Dim Special Program</Name>
+      <DimensionID>Dim Special Program</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a467a232-d070-474b-b353-6cdd52466681">
+          <AttributeID>Program ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f31f1e3d-837e-4234-8f38-be46e697b94f">
+          <AttributeID>Program Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7dc4a16b-7607-47c2-916f-9a4fa21b51b6">
+          <AttributeID>Program</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="02ee34b3-6401-4971-b0e3-65bef0b24e8d">
+      <ID>Dim Date</ID>
+      <Name>Dim Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="441f1b98-e711-40b6-80a9-30e0c754a1e4">
+          <AttributeID>Date PK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eea45c29-bc0f-4b47-ae83-721705d22611">
+          <AttributeID>Date Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c29e7475-a68b-4500-b81e-6f383fe1a5f9">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a46b83e6-93d6-42eb-8fd7-34a56eec7098">
+          <AttributeID>Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4be114b3-6668-41e8-b016-1fa93730a57d">
+          <AttributeID>Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="032522b0-cffc-4b59-82ee-041cc2951844">
+          <AttributeID>Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8d6e097-1f28-410a-9875-5fafcd545c0f">
+          <AttributeID>Quarter</AttributeID>
+          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+        </Attribute>
+        <Attribute dwd:design-time-name="4675b5d7-4a49-46b2-a7db-270e9616b3a3">
+          <AttributeID>Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5e0ce760-59ca-44c6-9b1d-fce1495fc053">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="95fd6fc2-313f-4ee9-806f-1e3d3ff65bb1">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b252d91a-9c38-442e-9a81-cc739aa76941">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="39103847-1d9f-4fdd-805b-8fb73313ca27">
+          <AttributeID>Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f849ff72-01c5-4f45-ba45-aa9683ee1e13">
+          <AttributeID>Day Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b5fe2dc-6285-430a-a415-9b2bb8c8c8d6">
+          <AttributeID>Day Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b1a1b278-7254-464f-8ed6-39478627f8e4">
+          <AttributeID>Day Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0fe37bbf-e5ff-4394-8418-ac757cc2d711">
+          <AttributeID>Day Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f797e125-08e5-42b6-8b75-4af442bea4c4">
+          <AttributeID>Day Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52769d7b-161a-42eb-b1ed-c6447e7266d0">
+          <AttributeID>Day Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9eb9ea16-c5e0-4d40-b818-3262ef2feb20">
+          <AttributeID>Day Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="acb50bfc-7685-4a2f-a886-8b050bcf06d9">
+          <AttributeID>Day Of Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fa7ba4cd-ef15-4e33-88d8-0ffebc5a5518">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="edca5adc-4a87-42d3-ae5a-70624c6f6efe">
+          <AttributeID>Day Of Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2fd31b4d-fe5c-479e-bdea-e5df35b48fd7">
+          <AttributeID>Week Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2318a1f7-1e4b-4103-b7fa-cd50e593d7ab">
+          <AttributeID>Week Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7f13f7aa-cad9-4cee-b8a1-4fba1d2d6891">
+          <AttributeID>Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="47cd5870-249e-4a96-a0bd-9eab9aa70a63">
+          <AttributeID>Month Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89f2f4fa-d178-441a-8518-74e224fd234b">
+          <AttributeID>Month Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70354950-4ece-4b77-9ec1-591271d932a6">
+          <AttributeID>Month Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c3e4feb-6798-4380-ad3e-0e520ef64fe6">
+          <AttributeID>Month Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c284393c-96a4-491f-9e03-e4f68f018acc">
+          <AttributeID>Month Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ff8ce96-066c-4373-a67c-9a0a7806dddd">
+          <AttributeID>Quarter Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c62b8f12-904a-41bc-b95a-4224bdccd972">
+          <AttributeID>Quarter Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac329434-0353-4d59-a8a6-196e8127b846">
+          <AttributeID>Quarter Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7a4af3f-1653-4b81-b677-97775a31a088">
+          <AttributeID>Quarter Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f67d5f7c-9880-4ad9-805e-aa8475c693ba">
+          <AttributeID>Half Year Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="377a78e8-ce75-4f3e-98ca-62b2b38dddbd">
+          <AttributeID>Half Year Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5abdb778-b028-494d-8628-c623d58286fe">
+          <AttributeID>School Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0da328ee-b30d-4856-8cb2-c2acfcf36a97">
+          <AttributeID>School Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fa1af907-6fb8-47cd-9de2-7deb5239d589">
+          <AttributeID>School Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ac6b69a-d821-407b-8629-aaa0719bec6d">
+          <AttributeID>School Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42ee649b-15ae-4ac3-8b15-2941d1933d65">
+          <AttributeID>School Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4af113cb-86c4-44e8-8d9d-239106794341">
+          <AttributeID>School Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="38e1a048-ebb8-46c6-b750-0f0cdf48b1d3">
+          <AttributeID>School Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dcd4f65e-ea00-4139-a621-78c6065ab480">
+          <AttributeID>School Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d508d065-f0b9-4a76-8d08-c040a9fc82f2">
+          <AttributeID>School Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8a8c8ca5-b7e9-4220-8c82-49f2be2be4a1">
+          <AttributeID>School Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="54363b10-c86b-4843-a7c7-d2524ea263b0">
+          <AttributeID>School Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74a27300-efe2-468f-80ea-2c90a3d55f09">
+          <AttributeID>School Day Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35f20726-f4bf-47d8-8f0d-9f9d56f2cb28">
+          <AttributeID>School Day Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="05b12cc2-9000-4d12-b53b-64a4a6f97a62">
+          <AttributeID>School Day Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1474960-9722-4d6f-9f07-685a82872d92">
+          <AttributeID>School Day Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52274bd0-4ee9-43bf-918d-1e411a641793">
+          <AttributeID>School Day Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8dbead1-40af-4f39-a674-474c5b2c64bc">
+          <AttributeID>School Day Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b7d9809-3584-43c7-85d8-b1ddb40a29ad">
+          <AttributeID>School Day Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7478195a-43dd-4c4e-80ea-6fb213061a88">
+          <AttributeID>School Day Of Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="802dee48-bb21-4cc5-928e-f4b893364c90">
+          <AttributeID>School Day Of Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d4766ce3-98f4-469b-a4b3-2719fcb2eaa0">
+          <AttributeID>School Day Of Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca88d330-1eb8-4876-a4cd-7e9d388bcaf3">
+          <AttributeID>School Day Of Week Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e631a1f5-1409-4608-b09b-5630abb15d4f">
+          <AttributeID>School Week Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="44f13e28-5e76-4a44-aeaa-fdef66dce530">
+          <AttributeID>School Week Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6f6f9a5-d43a-47e8-b4cd-8008741d854e">
+          <AttributeID>School Month Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a75dafe-dc2d-4dd5-8a3e-d0893cd2683d">
+          <AttributeID>School Month Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="11b57105-d0c2-4715-9a77-26332ee689a3">
+          <AttributeID>School Month Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b84524d5-5576-4d66-b627-02eeb155342a">
+          <AttributeID>School Month Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe0e44cb-0a73-4b37-8514-6a46cacb4ed1">
+          <AttributeID>School Month Of Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="23c1e459-ee65-48ca-93b0-a4b6646620eb">
+          <AttributeID>School Month Of Quarter Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad2eb014-eb8b-4440-8db3-d8530513ab5c">
+          <AttributeID>School Quarter Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c9e91170-9a01-4158-ae2e-0dc9bf0589d0">
+          <AttributeID>School Quarter Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6dbaab75-8181-4e17-9375-caeceb5c13ba">
+          <AttributeID>School Quarter Of Half Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d00ede30-a91d-4885-8f21-0c5a38accd4a">
+          <AttributeID>School Quarter Of Half Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c5ed0b8-acbf-4ee3-9b15-4bb708e7963d">
+          <AttributeID>School Half Year Of Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7aaa1131-a354-4416-a163-e5910cb317b0">
+          <AttributeID>School Half Year Of Year Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c2da686e-d120-4dc6-9149-ca3f50acd2fc">
+          <AttributeID>School Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa9285b6-b923-4231-bdd4-00973dc046a7">
+          <AttributeID>School Nine Weeks</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="2bb98ce8-30d3-4aeb-a6e0-761f87c66229">
+      <ID>Fact Special Program</ID>
+      <Name>Fact Special Program</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="a7d05597-7ac8-4be1-ac42-9f43878103f4">
+          <ID>Fact Special Program Count</ID>
+          <Name>Fact Special Program RowCount</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="91186ad7-dae0-4eba-bed2-5aa42c53e1c1">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="70b93637-29a9-4a06-ae88-3c19ed4bece0">
+              <TableID>dbo_factSpecialProgram</TableID>
+            </Source>
+          </Source>
+          <FormatString>#,#</FormatString>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e3f7212a-b602-4f4c-9727-462fb5ae5927">
+          <CubeDimensionID>Dim Student</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="347a2f6f-65b9-4748-b019-34242999cd1a">
+              <AttributeID>Student ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d1232fd6-4036-4381-820a-062a3b58b53e">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1ebc3077-38e5-4f98-9653-97b41c40aaed">
+                    <TableID>dbo_factSpecialProgram</TableID>
+                    <ColumnID>StudentID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d8dcd0d4-457f-4bd9-899c-5ea1d07e49db">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3b66de89-3c2b-4fb6-9bba-4aa5bf8f9d4d">
+              <AttributeID>Date PK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e494f7d5-bd20-4587-baa7-4ad31c8982d3">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bd3a7f3d-ecbe-43c6-9dc9-1cbd919a0d53">
+                    <TableID>dbo_factSpecialProgram</TableID>
+                    <ColumnID>EntryDate</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7dbb27e8-a81f-4ddc-b165-1a211f3a0448">
+          <CubeDimensionID>Dim Special Program</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="65c61072-193b-4325-8051-d22a11c189a4">
+              <AttributeID>Program ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9cff96d0-e520-4688-9d2e-8b8834ada903">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f1b29e56-c967-44ea-b666-57b0e10d8173">
+                    <TableID>dbo_factSpecialProgram</TableID>
+                    <ColumnID>ProgramID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="fac4e42b-2358-444f-9bea-db893208882a">
+    <DataSourceViewID>Schools K12 DW</DataSourceViewID>
+  </Source>
+</Cube>

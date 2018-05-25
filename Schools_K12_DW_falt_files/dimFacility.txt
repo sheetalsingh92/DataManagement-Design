@@ -1,0 +1,6 @@
+FacilityID,Facility,Address,City,Zip,Active,Charter,FacilityADCode,FacLevel,FacilityName,FacilityType
+1,Contoso High School,11000 Northwest Highway,Anywhere,100000,1,0,CHHS,H,Contoso High School,H
+2,Contoso Middle,300 Walker Dr.,Anywhere,100000,1,0,CMS,M,Contoso Middle,M
+3,Contoso Elementary,100 Whitewater St,Anywhere,10000,1,0,CES,E,Contoso Elementary,E
+4,District HQ,99 Contoso Dr.,Anywhere,10000,1,0,DIS,,,
+5,Mountain View Elementary,4000 Mountain,Contoso,10000,1,,MVE,E,Mountain View Elementary,E

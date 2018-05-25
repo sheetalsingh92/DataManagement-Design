@@ -1,0 +1,27 @@
+AssignmentID,Assignment
+1,No Assignment                                     
+2,Early Graduation with 18/24 credits               
+3,2nd Year 9th Graders                              
+4,2nd Year 9th Graders Out of Zone                  
+5,Administratively Placed                           
+6,Annual Yearly Progress Placed                     
+7,Charter School                                    
+8,ESE Program Placed                                
+9,Home Zoned School                                 
+10,IB Program                                        
+11,Assigned by Map                                   
+12,McKay Scholarship Student Attending a District Sch
+13,No Child Left Behind                              
+14,Out of District                                   
+15,Out of Zone                                       
+16,Up for Expulsion                                  
+17,'Credits to Grad Early, Not In School but will walk'
+18,Zenith Student                                    
+19,COURT ORDERED OUT OF ZONE                         
+20,CUM FOLDER SENT TO THIS SCHOOL                    
+21,EXPELLED                                          
+22,FLORIDA VIRTUAL SCHOOL                            
+23,HOME-SCHOOLED STUDENT                             
+24,LOTTERY ASSIGNED - PERMANENT                      
+25,LOTTERY ASSIGNED - TEMPORARY                      
+26,OUT-OF-STATE RESIDENT                             

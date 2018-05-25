@@ -1,0 +1,29 @@
+StandardizedTestDomainID,StandardizedTestDomain,SubjectID
+1,Research,15
+2,Research and Writing Process,15
+3,Sentence Structure,18
+4,Grammar/Phonics,18
+5,Grammar and Sentence Construction,18
+6,Grammar/Phonological Awareness/Phonics,18
+7,Geometry,10
+8,Algebra,10
+9,Measurement ,10
+10,Data Analysis and Probability,10
+11,Number and Operations,10
+12,Information and Media Literacy,18
+13,Reading for Information,18
+14,Reading Skills and Vocabulary Acquisition,18
+15,Literary Comprehension,18
+16,Vocabulary,18
+17,Astronomy,14
+18,Cells and Genetics,14
+19,Life Science,14
+20,Geology,14
+21,Hydrology and Meteorology,14
+22,Physical Science,14
+23,Evolution,14
+24,Earth Science,14
+25,Interdependence of Life,14
+26,History,15
+27,Economics,15
+28,Geography,15

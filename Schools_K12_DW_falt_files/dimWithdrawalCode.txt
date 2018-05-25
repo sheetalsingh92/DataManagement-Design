@@ -1,0 +1,37 @@
+WithdrawalCodeID,WithdrawalCode,WithdrawalCodeDesc
+1,REG,Regular
+107,W05,OVER 16 VOL LEAVES/NO RETURN                      
+108,W06,GRADUATES HS/STANDARD DIPLOMA                     
+109,W07,GRADUATE/SPEC DIPL/ESE-OPT 1                      
+110,W08,CERTIFICATE OF COMPLETION                         
+111,W09,SPECIAL CERTIFICATE COMPLETION                    
+112,W10,GED EXIT OPT/PASS HSCT OR FCAT                    
+113,W11,WITHDRAWN  DUE TO HARDSHIP                        
+114,W12,WITHDRAWN DUE TO DEATH                            
+115,W13,WITHDRAWN DUE TO COURT ACTION                     
+116,W14,WITHDRAWS TO ENTER MILITARY                       
+117,W15,WITHDRAWN DUE TO NONATTENDANCE                    
+118,W16,WITHDRAWS TO GET MARRIED                          
+119,W17,WITHDRAWS DUE TO PREGNANCY                        
+120,W18,WITHDRAWS DUE MEDICAL REASONS                     
+121,W19,ESE/SPECIAL ED THRU AGE 21                        
+122,W20,WD/FAIL HSCT/NO CERT OF COMPL                     
+123,W21,WITHDRAWN DUE TO EXPELLING                        
+124,W22,WHEREABOUTS UNKNOWN                         
+144,W3B,WITHDRAW TO ANOTHER STATE                         
+147,W42,ADULT STUDENT/EXPELLED                            
+148,W43,AE GRAD/STANDARD DIPLOMA                          
+149,W44,ADULT/CERTIFICATE COMPLETION                      
+150,W45,ADULT/GED                                         
+151,W46,AE WD DUE TO CLASS LOCATION                       
+152,W47,AE/END OF YEAR WD                                 
+153,W48,TRANSFER OUT/IN DISTRICT
+154,W49,AE LEFT THE AREA                                  
+155,W50,AE WD DUE TO DEATH                                
+156,W51,9-12/COMPLETED COURSE                             
+164,WFT,STAND DIPL/ALT ASSESSMENT                         
+165,WFW,W/D GRAD W/STAN DIP-FCA WAIVER                    
+166,WGA,GED EXIT OPT/GED TEST/ALT.ASST                    
+167,WGD,GED EXIT OPT/PASS GED/FAIL TST                    
+168,WPO,'W/D SUB TO W08;ESE-W07,W09,W27                    '
+169,ZZZ,NOT APPLICABLE                                    

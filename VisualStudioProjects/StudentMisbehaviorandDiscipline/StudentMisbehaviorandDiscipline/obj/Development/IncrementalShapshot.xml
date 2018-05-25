@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>StudentMisbehaviorandDiscipline</Database>
+    <Server>KURKI-HP</Server>
+    <ConnectionString>DataSource=KURKI-HP;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>PIGpERM1RS3hSW+Yg/AEdBzF9Hw=4/25/2016 6:58:34 PM4/25/2016 6:58:34 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>IZyVIOtPeXJbt6lHxfKJ+XAQFIc=4/25/2016 6:59:31 PM4/25/2016 6:59:30 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MGVeefGCAIVMD7ot46/tOZVIWa8=4/25/2016 7:00:21 PM4/25/2016 7:00:20 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5KXI7GYbKf2f+l772P0G0HeHwz8=4/25/2016 7:00:38 PM4/25/2016 7:00:38 PM</TimeStamp>
+        <ID>
+          <String>Dim Discipline Action Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JJ2hater/0buQ+jvwxCr4fdtaos=4/25/2016 7:00:53 PM4/25/2016 7:00:53 PM</TimeStamp>
+        <ID>
+          <String>Dim Discipline Event Code</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tm3HM1Y+H7N9F4q0ekjlUg0pQwA=4/25/2016 7:01:16 PM4/25/2016 7:01:16 PM</TimeStamp>
+        <ID>
+          <String>Dim Staff</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>H3LlgnaenMNQ2kUH65X9mwGmzbk=4/25/2016 7:01:38 PM4/25/2016 7:01:37 PM</TimeStamp>
+        <ID>
+          <String>Dim Facility</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>wEiyQA/sdg88uN+q2li6sKai57c=4/25/2016 7:02:00 PM4/25/2016 7:01:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Student</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>YRtDrllxAiVt6c2t7OZKlmmIwQA=4/25/2016 7:03:53 PM4/25/2016 7:02:31 PMhVpQhFlRk0QL57ZOnrsVNbusrcI=4/25/2016 7:02:31 PM4/25/2016 7:02:31 PM</TimeStamp>
+        <ID>
+          <String>Schools K12 DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>yzNC14ShsLpIqL45g7k9pbH1xkE=4/25/2016 6:57:06 PM4/25/2016 6:57:05 PM</TimeStamp>
+      <ID>
+        <String>StudentMisbehaviorandDiscipline</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-04-25T23:04:36.163333Z</LastDeployed>
+</DeploymentSnapshot>

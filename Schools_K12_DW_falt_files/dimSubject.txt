@@ -1,0 +1,20 @@
+SubjectID,SubjectCode,SubjectName
+1,HR,Homeroom
+2,AG,American History/Govt
+3,CE,Computers
+4,EC,Economics
+5,EL,Electives
+6,EN,English
+7,EX,Special
+8,FL,Foreign Language
+9,LA,Language Arts
+10,MA,Math
+11,NC,Non Credit
+12,PE,Physical Education
+13,PF,Performing Arts
+14,SC,Science
+15,SS,Social Studies
+16,VO,Vocational
+17,WH,World History
+18,RE,Reading
+47,,Other

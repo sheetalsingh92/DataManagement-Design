@@ -1,0 +1,37 @@
+DisciplineActionCodeID,DisciplineActionCode,DisciplineActionDesc
+1,,Unknown                                           
+2,1  ,5 DAY LETTER                                      
+3,2  ,10 DAY LETTER                                     
+4,3  ,ADMINISTRATIVE DETENTION                          
+5,4  ,ADMINISTRATIVE REPRIMAND                          
+6,5  ,BEHAVIOR CONTRACT                                 
+7,6  ,BUS SUSPENSION                                    
+8,7  ,CORRECT DRESS                                     
+9,8  ,COUNSELING                                        
+10,9  ,FINANCIAL RESTITUTION                             
+12,C  ,CORPORAL PUNISHMENT                               
+13,D  ,OTHER DISTRICT DEFINED                            
+14,E  ,EXPELLED/NO CONT ED SERVICE                       
+16,G  ,ALT PLACE-STATE DEFINE/DISCONT                    
+18,I  ,IN-SCHOOL SUSPENSION                              
+19,J  ,JUVENILE OR COURT REFERRAL                        
+29,LA ,CONFISCATION INAPPROPRIATE ITM                    
+30,LB ,TOBACCO CESSATION OR CITATION                     
+31,LD ,TEACHER DETENTION                                 
+32,LF ,SATURDAY SCHOOL (FULL DAY)                        
+33,LG ,TEACHER/STUDENT SCHEDULE CHG                      
+34,LH ,SATURDAY SCHOOL (HALF DAY)                        
+35,LJ ,JUVENILE OR COURT REFERRAL                        
+36,LL ,LOSS OF CREDIT (DISHONESTY)                       
+37,LM ,STRICTLY SUPERVISED STUDY                         
+38,LN ,LOSS OF LUNCH PRIVILEDGE                          
+39,LP ,PARENTAL CONTACT                                  
+40,LQ ,LOSS OF DRIVING PRIVILEDGE                        
+41,LR ,PSYCHOLOGICAL COUNSELING                          
+42,LT ,SECURE SUPPLIES                                   
+43,LV ,VERBAL REPRIMAND                                  
+44,LW ,WRITTEN ASSIGNMENT                                
+45,LX ,WORK DETAIL                                       
+46,LY ,TIME OUT                                          
+48,O  ,OUT-OF-SCHOOL SUSPENSION                          
+50,Q  ,REVOKE PARKING DECAL OR TOW                       

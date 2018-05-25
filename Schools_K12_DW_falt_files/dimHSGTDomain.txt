@@ -1,0 +1,19 @@
+HSGTDomainID,HSGTDomain,SubjectID
+1,Reading Comprehension,18
+2,Literary Analysis,18
+3,Conventions and Writing,18
+4,World Studies,15
+5,US History to 1865,15
+6,US History Since 1865,15
+7,Citizenship/Government,15
+8,Map Interpretation Skills,15
+9,Information Processing Skills,15
+10,Cells and Heredity,14
+11,Ecology,14
+12,Structure and Property of Matter,14
+13,Energy Transformation,14
+14,'Forces, Waves and Electricity',14
+15,Number Sense and Computation,10
+16,Data Analysis,10
+17,Measurement and Geometry,10
+18,Algebra,10

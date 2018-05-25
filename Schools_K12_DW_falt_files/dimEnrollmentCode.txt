@@ -1,0 +1,21 @@
+EnrollmentCodeID,EnrollmentCode,EnrollmentCodeDesc
+1,REG,Regular
+87,DNE,DID NOT ENTER/UNKNOWN REASONS                     
+88,E01,ENRL PUBLIC SCH PREV YR                    
+89,E02,LAST SCH-PUBLIC OUTSIDE COUNTY                    
+90,E03,LAST SCH-PRIVATE SCH ANYWHERE                     
+91,E04,PREV HOME EDUCATION                               
+92,E05,PK/KG ENTERING FIRST TIME                         
+93,E09,PK-12 ENTERS FROM OUT OF US                     
+95,H01,K-12 ENROLLED HOME ED PROGRAM                     
+96,H02,K-12 WITHDRAWN FROM HOME ED                       
+97,R01,RECEIVED FROM SAME SCHOOL                         
+98,R02,RECD ANOTHER SCHOOL/SAME DIST                     
+99,R03,UNEXPECT REENTER SAME DISTRICT                    
+100,R04,RETURNING FROM PRIVATE/HOME                       
+101,R05,UNEXPECT RETURN AFTER WD                          
+102,RA1,AE-REENTRY/SAME CLASS                             
+103,W01,TRANSFER WITHIN SAME SCHOOL                       
+104,W02,TRANSFER WITHIN DISTRICT                          
+169,ZZZ,NOT APPLICABLE                                    
+170,ENR,STANDARD ENROLLMENT

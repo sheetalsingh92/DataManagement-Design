@@ -1,0 +1,14 @@
+GradeTypeID,GradeType
+1,Missing
+2,Unknown
+3,First Nine Weeks
+4,Second Nine Weeks
+5,First Semester
+6,First Semester Exam
+7,First Semester Final
+8,Third Nine Weeks
+10,Fourth Nine Weeks
+11,Second Semester
+12,Second Semester Exam
+13,Second Semester Final
+14,Final Grade

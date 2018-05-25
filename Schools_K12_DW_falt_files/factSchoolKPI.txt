@@ -1,0 +1,6 @@
+SchoolKPIID,EffectiveDate,FacilityID,TargetStudentAttendancePct,TargetStandardizedTestScaledScore,TargetEnrollmentCount
+1,'2007-08-01 00:00:00',1,94,560,300
+2,'2007-08-01 00:00:00',2,94,560,185
+3,'2007-08-01 00:00:00',3,94,560,250
+4,'2007-08-01 00:00:00',4,94,560,250
+5,'2007-08-01 00:00:00',5,94,560,300
